@@ -1,0 +1,253 @@
+#second-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#last-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+/*==========  ID Rules  ==========*/
+#info-rect {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+#header-wrapper {
+    width: 85%;
+    margin: 5% 10%;
+}
+
+#navigation-page {
+    width: 45%;
+    height: 100%;
+    float: right;
+    margin-left: auto;
+    position: relative;
+    background-color: transparent;
+}
+
+
+/*==========  Class Rules ==========*/
+.conclusion-container {
+    margin-top: 10%;
+}
+
+.menu-list {
+    width: 85%;
+    float: right;
+    margin: 0px auto;
+    margin-top: 7px;
+}
+
+.roaring-man {
+    width: 90%;
+    margin: 15% auto;
+}
+
+.header-button {
+    margin: 4% auto;
+}
+
+.header-button h2 {
+    float: left;
+    margin-left: 0px;
+}
+
+.event-photos {
+    width: 21%;
+    height: 100%;
+    margin: 2%;
+}
+
+.event-names {
+    margin-top: 24%;
+    margin-left: 2%;
+}
+
+.event-names h1 {
+    font-size: 29px;
+}
+
+.about-loop {
+    width: 40%;
+    height: 50%;
+    padding: 30px;
+    position: absolute;
+    margin: 200px 0px 0px 570px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.our-creations {
+    width: 90%;
+    margin-bottom: 10%;
+}
+
+.ending-info {
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.bending-info {
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+}
+
+.end-image {
+    width: 50%;
+}
+
+.social-platforms {
+    width: 17%;
+    margin-left: 0%;
+    margin-right: 7%;
+} 
+
+.colony {
+    width: 40%;
+    float: right;
+    margin-bottom: 5%;
+}
+
+.ending-info a {
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.bending-info p {
+    margin-top: 20%;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.bee-all {
+    margin: 0px;
+    font-size: 0px;
+    max-width: 0px;
+    max-height: 0px;
+    border: 0px solid hsl(0, 0%, 0%);
+}
+
+.see-all {
+    width: 15%;
+    height: 100%;
+    padding: 15px;
+    max-width: none;
+    max-height: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 23px;
+    font-family: "Alata";
+    color: hsl(0, 0%, 0%);
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 0%);
+}
+
+
+
+/*==========  Element Rules  ==========*/
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    margin: 30px;
+    text-align: left;
+    font-size: 45px;
+}
+
+ul {
+    margin-top: 5%;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Alata";
+    margin: 0px 0px 0px 25px;
+    text-transform: capitalize;
+}
+
+p {
+    text-align: left;
+    margin: 0px 100px 30px 30px;
+}
+
+
+
+
+/*==========  IPad Portrait Mode Rules  ==========*/
+
+@media only screen and (max-width: 1024px) {
+    /*==========  ID Rules  ==========*/
+    #navigation-page {
+        width: 50%;
+    }
+
+
+    
+    /*==========  Class Rules  ==========*/
+    .menu-list {
+        width: 85%;
+    }
+
+    .about-loop {
+        width: 40%;
+        height: 400px;
+        margin: 200px 0px 0px 300px
+    }
+
+    .roaring-man {
+        width: 70%;
+        margin: 13% 7%;
+    }
+
+    
+    /*==========  Element Rules  ==========*/
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        margin: 30px;
+        font-size: 45px;
+        margin-right: 0px;
+    }
+
+    a {
+        margin: 0px;
+        margin-left: 15px;
+    }
+
+    p {
+        text-align: left;
+        margin: 0px 0px 30px 30px;
+    }
+    
+}
+
+
+
+
+    /*==========  ID Rules  ==========*/
+    #first-flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+   
