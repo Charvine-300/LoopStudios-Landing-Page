@@ -61,7 +61,7 @@ body {
 }
 
 #toggle-setting {
-    margin-top: 1%;
+   margin-top: 5px;
 }
 
 #info-rect {
@@ -199,7 +199,7 @@ body {
 }
 
 .social-platforms {
-    width: 15%;
+    width: 10%;
     height: 100%;
     margin-left: 10%;
     display: inline-block;

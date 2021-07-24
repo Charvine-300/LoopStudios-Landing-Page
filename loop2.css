@@ -52,7 +52,7 @@
 }
 
 .header-button {
-    margin: 4% auto;
+    margin: 4% auto 0% auto;
 }
 
 .header-button h2 {
@@ -99,7 +99,7 @@
 .bending-info {
     width: 50%;
     float: right;
-    margin-top: 10%;
+    margin-top: 11%;
 }
 
 .end-image {
@@ -107,13 +107,13 @@
 }
 
 .social-platforms {
-    width: 17%;
+    width: 15%;
     margin-left: 0%;
     margin-right: 7%;
 } 
 
 .colony {
-    width: 40%;
+    width: 25%;
     float: right;
     margin-bottom: 5%;
 }
@@ -124,9 +124,9 @@
 }
 
 .bending-info p {
-    margin-top: 20%;
+    margin-top: 16%;
     text-align: right;
-    margin-right: 0px;
+    margin-right: 3%;
 }
 
 .bee-all {
@@ -145,7 +145,7 @@
     max-height: none;
     font-size: 18px;
     font-weight: 600;
-    margin-top: 23px;
+    margin-top: 20px;
     font-family: "Alata";
     color: hsl(0, 0%, 0%);
     background-color: transparent;
