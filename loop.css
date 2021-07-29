@@ -183,7 +183,8 @@ body {
 .event-photos {
     width: 100%;
     height: 100%;
-   margin-bottom: 7%;
+    margin-bottom: 7%;
+    transition: all 0.5s ease-in-out;
 }
 
 .event-names {
@@ -219,6 +220,7 @@ body {
 /*==========  Class.Element Rules  ==========*/
 .event-names h1 {
     font-size: 25px;
+    transition: all 0.5s ease-in-out;
 }
 
 .ending-info a {
@@ -287,11 +289,6 @@ p {
     text-transform: none;
     color: hsl(0, 0%, 55%);
 }
-
-
-
-/*==========  Animation and Pseudo Rules  ==========*/
-
 
 
 
